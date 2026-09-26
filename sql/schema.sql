@@ -1,0 +1,12 @@
+-- ============================================================
+-- HR Analytics - Schema for real-world attrition datasets
+-- Table hr_raw is created from CSV (see db.py). This file holds
+-- optional indexes and is run after first load when using IBM-style data.
+-- ============================================================
+
+-- Indexes for analytics (run after loading IBM-format data)
+-- CREATE INDEX IF NOT EXISTS idx_hr_attrition ON hr_raw(Attrition);
+-- CREATE INDEX IF NOT EXISTS idx_hr_department ON hr_raw(Department);
+-- CREATE INDEX IF NOT EXISTS idx_hr_job_role ON hr_raw(JobRole);
+-- CREATE INDEX IF NOT EXISTS idx_hr_age ON hr_raw(Age);
+-- CREATE INDEX IF NOT EXISTS idx_hr_income ON hr_raw(MonthlyIncome);

@@ -1,0 +1,15 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+.venv
+venv
+env
+data/
+output/
+run_pipeline.py
+app_streamlit.py
+requirements.txt
+README.md
+PUSH_TO_GITHUB.md
+DEPLOY_LIVE_LINK.md
